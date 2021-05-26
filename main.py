@@ -38,12 +38,16 @@ if lake == 'wait':
   island = input("You arrive at the island unnamed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n").lower()
 elif lake == 'swim':
   print("You've got tired and got drown.")
+else:
+  print("You've got tired and got drown.")
 
 if island == 'yellow':
   print("You win!")
 elif island == 'blue':
   print("Game over!")
 elif island == 'red':
+  print("Game over!")
+else:
   print("Game over!")
 
 
